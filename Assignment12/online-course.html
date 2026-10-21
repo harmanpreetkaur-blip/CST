@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Registration Form</title>
+</head>
+<body style="
+    background-image:url('flower imagination.jpg') ;
+    background-repeat:no repeat;
+    background-size:cover;
+        ">
+        <h2> Online Course Registration Form </h2>
+
+        <p>Register for an online course by filling out this form </p>
+
+    <form action="online-course.html" target="_blank">
+
+        <label for="form1">Student Name :</label>
+        <input type="text" id="form1" name="form1"
+                placeholder="Enter  your name" required >
+        <br><br>
+
+        <label for="form1">Email address :</label>
+        <input type="email" id="form1" name="form1"
+                placeholder="Enter your email address" required>
+
+        <br><br>
+
+        <label for="form1">Mobile number :</label>
+        <input type="tel" id="form1" name="form1"
+                placeholder="Enter your mobile number" required> 
+
+        <br><br>
+
+        <label for="form1">Age :</label>
+        <input type="number" id="form1" name="form1"
+                placeholder="Enter  your age" required>
+
+        <br><br>
+
+        <label for="form2">Password :</label>
+        <input type="password" id="form2" name="form2"
+                placeholder="Enter password" required>
+
+        <br><br>
+        
+        <label>Gender:</label>
+        
+        <input type="radio" id="form3" name= "gender" value="Male">
+        <label for="form3">Male</label>
+
+        <br><br>
+
+        <input type="radio" id="form4" name="gender" value="Female">
+        <label for="form4">Female</label>
+
+       <br><br>
+
+        <input type="radio" id="form5" name= "gender" value="other">
+        <label for="form5">other</label>
+
+        <br><br>
+
+        <label> select your Skill </label>
+
+        <input type="checkbox" id="form6" name="HTML" >
+        <label for="form6">HTML</label>
+       
+        <br><br>
+
+        <input type="checkbox" id="form7" name="CSS" >
+        <label for="form7">CSS</label>
+      
+        <br><br>
+
+        <input type="checkbox" id="form8" name="Java script">
+        <label for="form8">Java script</label>
+       
+        <br><br>
+
+        <input type="checkbox" id="form9" name="Python">
+        <label for="form9">Python</label>
+
+        <br><br>
+
+        <label for="course">select course : </label>
+        <select id="course" name="course" required>
+            <option value="">select course</option>
+            <option value="WEB DEVELOPMENT">Wed Development</option>
+            <option value="PYTHON PROGRAMMING">Python Programming</option>
+            <option value="DATA ANALYTICS"> Data Analytics</option>
+            <option value="DIGITAL MARKETNG"> Data  Marketing</option>
+        </select>
+
+        <br><br>
+
+        <input type="hidden" name="form name" value="Online course Registration">
+
+        <label for="DOB" > Date Of Birth :</label>
+        <input type="date" id="DOB" name="DOB">
+        <br><br>
+
+        <label for="time" >preferred Class Time :</label>
+        <input type="time" id="time" name="time">
+
+        <br><br>
+
+        <label for="Address"> Address Information :</label>
+
+        <br><br>
+
+        <textarea  id="address" name="Address" cols="30" rows="5" 
+                placeholder="Enter your additional details" required></textarea>
+        <br><br>
+        <label for="file" >upload document or photograph :</label>
+        <input type="file" id="file" name="document or photograph">
+
+        <br><br>
+        <input type="submit">
+        <input  type="reset">
+    
+    </form>
+    
+</body>
+</html>
